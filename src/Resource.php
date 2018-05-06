@@ -4,12 +4,20 @@ namespace MayMeow\API\Resource;
 
 use Cake\ORM\Entity;
 
+/**
+ * Class Resource
+ * @package MayMeow\API\Resource
+ */
 abstract class Resource implements ResourceInterface
 {
+    /**
+     * Cake\ORM\Entity $entity
+     */
     protected $entity;
 
     /**
-     * Resource Constructor
+     * Resource constructor.
+     * @param $entity
      */
     public function __construct($entity)
     {   
@@ -17,7 +25,10 @@ abstract class Resource implements ResourceInterface
     }
 
     /**
-     * 
+     * Magic Getter
+     *
+     * @param $name
+     * @return mixed
      */
     public function __get($name)
     {
@@ -25,7 +36,10 @@ abstract class Resource implements ResourceInterface
     }
 
     /**
-     * 
+     * Magic Setter
+     *
+     * @param $name
+     * @param $value
      */
     public function __set($name, $value)
     {
@@ -33,7 +47,10 @@ abstract class Resource implements ResourceInterface
     }
 
     /**
-     * 
+     * Method get
+     * returns resource properties array
+     *
+     * @return mixed
      */
     public function get()
     {
@@ -56,7 +73,13 @@ abstract class Resource implements ResourceInterface
     }
 
     /**
-     * 
+     * Method collection
+     * returns collection of resources properties arrays
+     *
+     * @property ResourceInterface $AnonymousResource
+     *
+     * @param $entity
+     * @return array
      */
     public static function collection($entity)
     {

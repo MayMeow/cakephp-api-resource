@@ -1,7 +1,6 @@
 # Cakephp Api Resource
 
 [![Beerpay](https://beerpay.io/MayMeow/cakephp-api-resource/badge.svg)](https://beerpay.io/MayMeow/cakephp-api-resource)
-
 [![Build Status](https://travis-ci.org/MayMeow/cakephp-api-resource.svg?branch=master)](https://travis-ci.org/MayMeow/cakephp-api-resource)
 
 JSON API Resource plugin for CakePHP. This plugin is inspired with laravel's JSON API resources.
