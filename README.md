@@ -9,7 +9,7 @@ JSON API Resource plugin for CakePHP. This plugin is inspired with laravel's JSO
 ## Requirements
 
 * CakePHP 3.6
-* PHP 5.6.0 or greater
+* PHP 7.1 or greater
 
 ## Installation
 
