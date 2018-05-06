@@ -1,0 +1,30 @@
+{
+    "name": "maymeow/cakephp-api-resource",
+    "description": "Api Resource for CakePHP",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp", "plugin", "api", "resources"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "May Meow",
+            "email": "themaymeow@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MayMeow\\API\\Resource\\": "src",
+            "MayMeow\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "cakephp/cakephp": "^3.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "support": {
+        "source": "https://github.com/MayMeow/cakephp-api-resource"
+    }
+}
